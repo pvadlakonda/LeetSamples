@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a359b3c3-a9a9-49a1-b1a5-8528c32c5e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/samples/LinkedListCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/samples/LinkedListCycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/samples/LinkedListCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/samples/LinkedListCycleTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/samples/LinkedListCycleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="570">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -222,9 +222,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListCycleTest.name">
+  <component name="RunManager" selected="JUnit.All in LeetSamples">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in LeetSamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetSamples" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -262,44 +271,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubStringTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.samples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.samples" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.LongestSubStringTest" />
-      <option name="TEST_OBJECT" value="uniqueId" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:com.leetcode.samples.LongestSubStringTest]" />
-      </uniqueIds>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestSubStringTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.samples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.samples" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.LongestSubStringTest" />
-      <option name="TEST_OBJECT" value="uniqueId" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:com.leetcode.samples.LongestSubStringTest]" />
-      </uniqueIds>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LongestSubStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetSamples" />
       <extension name="coverage">
@@ -310,6 +281,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.samples" />
       <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.LongestSubStringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.samples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.samples" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.TwoSumTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -334,11 +321,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in LeetSamples" />
+        <item itemvalue="JUnit.TwoSumTest" />
         <item itemvalue="JUnit.LinkedListCycleTest.name" />
         <item itemvalue="JUnit.LinkedListCycleTest" />
         <item itemvalue="JUnit.LongestSubStringTest" />
-        <item itemvalue="JUnit.LongestSubStringTest (2)" />
-        <item itemvalue="JUnit.LongestSubStringTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -356,9 +343,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LongestSubStringTest - 2019.10.04 at 12h 57m 51s.xml">
-      <configuration name="LongestSubStringTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LongestSubStringTest_(1) - 2019.10.04 at 12h 59m 15s.xml">
       <configuration name="LongestSubStringTest (1)" configurationId="JUnit" />
     </history-entry>
@@ -386,6 +370,9 @@
     <history-entry file="LinkedListCycleTest_name - 2019.10.04 at 14h 24m 43s.xml">
       <configuration name="LinkedListCycleTest.name" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LinkedListCycleTest_name - 2019.10.04 at 14h 50m 52s.xml">
+      <configuration name="LinkedListCycleTest.name" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="23" width="1615" height="1027" extended-state="6" />
@@ -400,7 +387,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -611,8 +598,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/samples/LinkedListCycleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="570">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
