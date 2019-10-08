@@ -39,16 +39,39 @@ class AddTwoNumbersTest {
         assertEquals(62451, extractNumberFromList(listNodeResult));
     }
 
-    private ListNode convertToListNode(int input) {
+    @Test
+    void test0() {
+        //0+0 = 0
+
+        ListNode input1 = convertToListNode(0);
+        ListNode input2 = convertToListNode(0);
+
+        ListNode listNodeResult = addTwoNumbers.addTwoNumbers(input1, input2);
+        assertEquals(0, extractNumberFromList(listNodeResult));
+    }
+
+    @Test
+    void testLongNumbers() {
+
+        ListNode input1 = convertToListNode(9);
+        ListNode input2 = convertToListNode(9999999991L);
+
+        ListNode listNodeResult = addTwoNumbers.addTwoNumbers(input1, input2);
+        assertEquals(8000000002L, extractNumberFromList(listNodeResult));
+    }
+
+    private ListNode convertToListNode(long input) {
         StringBuilder numberString = new StringBuilder(String.valueOf(input));
-        ListNode resultList = null;
+
 
         String[] tokens = numberString.toString().split("");
         int stringLength = tokens.length;
         ListNode lastNode = new ListNode(Integer.valueOf(tokens[stringLength - 1]));
+        ListNode resultList = lastNode;
         stringLength--;
         while (stringLength > 0) {
-            ListNode tmpNode = new ListNode(Integer.valueOf(tokens[stringLength - 1]), lastNode);
+            ListNode tmpNode = new ListNode(Integer.valueOf(tokens[stringLength - 1]));
+            tmpNode.next = lastNode;
             lastNode = tmpNode;
             resultList = tmpNode;
             stringLength--;
@@ -57,12 +80,12 @@ class AddTwoNumbersTest {
 
     }
 
-    private int extractNumberFromList(ListNode listNode) {
+    private long extractNumberFromList(ListNode listNode) {
         StringBuilder numberString = new StringBuilder("" + listNode.val);
         while (listNode.next != null) {
             numberString.append(listNode.next.val);
             listNode = listNode.next;
         }
-        return Integer.parseInt(numberString.toString());
+        return Long.parseLong(numberString.toString());
     }
 }
