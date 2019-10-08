@@ -41,4 +41,20 @@ class TwoSumTest {
         }
         return false;
     }
+
+    @Test
+    void name() {
+        int[] nums1 = new int[]{};
+        int[] nums2 = new int[]{1, 2, 3, 4, 5};
+
+        System.out.println(twoSum.findMedianSortedArrays(nums1, nums2));
+    }
+
+    @Test
+    void name1() {
+        int[] nums1 = new int[]{1,3};
+        int[] nums2 = new int[]{2};
+
+        System.out.println(twoSum.findMedianSortedArrays(nums1, nums2));
+    }
 }

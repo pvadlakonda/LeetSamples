@@ -1,6 +1,9 @@
 package com.leetcode.samples;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -35,5 +38,42 @@ public class TwoSum {
 
         }
         return result;
+    }
+
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        List<Integer> list1 = new ArrayList<>();
+        for(int i : nums1) {
+            list1.add(i);
+        }
+        for(int i : nums2) {
+            list1.add(i);
+        }
+        Collections.sort(list1);
+
+        if (list1.size() % 2 == 1) {
+            return list1.get(list1.size() / 2) ;
+        } else {
+            int half = list1.size() / 2;
+            return (list1.get(half-1) + list1.get(half)) / 2.0;
+        }
+
+
+
+//        if(list1.size() == 1) {
+//            return list1.get(0);
+//        }
+//        if(list1.size() == 2) {
+//            return (list1.get(0) + list1.get(1)) / 2.0;
+//        }
+//        if(list1.size() == 3) {
+//            return list1.get(1);
+//        }
+//
+//        int middle = (list1.size()) / 2 ;
+//        if (middle % 2 == 0) { //even
+//            return (list1.get(middle-1) + list1.get(middle)) / 2.0;
+//        } else {//odd
+//            return list1.get(middle);
+//        }
     }
 }

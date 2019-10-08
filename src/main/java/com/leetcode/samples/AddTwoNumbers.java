@@ -16,49 +16,33 @@ package com.leetcode.samples;
 public class AddTwoNumbers {
 
     public ListNode addTwoNumbers(ListNode listNode1a, ListNode listNode1b) {
-        long num1 = extractNumberFromList(listNode1a);
-        long num2 = extractNumberFromList(listNode1b);
 
-        long resultNum = num1 + num2;
+        ListNode resultNode = new ListNode(0);
+        int carry = 0;
 
-        return convertToList(resultNum);
-    }
+        while (listNode1a != null || listNode1b != null) {
+            int i = listNode1a != null ? listNode1a.val : 0;
+            int j = listNode1b != null ? listNode1b.val : 0;
 
-    private ListNode convertToList(long number) {
-        StringBuilder numberString = new StringBuilder(String.valueOf(number)).reverse();
+            ListNode currNode = new ListNode((carry + i + j) % 10);
+            carry = (carry + i + j) / 10;
 
-        String[] tokens = numberString.toString().split("");
-        int stringLength = tokens.length;
-        ListNode lastNode = new ListNode(Long.valueOf(tokens[stringLength - 1]));
-        ListNode resultList = lastNode;
-        stringLength--;
-        while (stringLength > 0) {
-            ListNode tmpNode = new ListNode(Long.valueOf(tokens[stringLength - 1]));
-            tmpNode.next = lastNode;
-            lastNode = tmpNode;
-            resultList = tmpNode;
-            stringLength--;
+            resultNode.next = currNode;
+            resultNode = currNode;
+
+            listNode1a = listNode1a != null ? listNode1a.next : null;
+            listNode1b = listNode1b != null ? listNode1b.next : null;
         }
 
-
-        return resultList;
-    }
-
-    private long extractNumberFromList(ListNode listNode) {
-        StringBuilder numberString = new StringBuilder("" + listNode.val);
-        while (listNode.next != null) {
-            numberString.append(listNode.next.val);
-            listNode = listNode.next;
-        }
-        return Long.parseLong(numberString.reverse().toString());
+        return resultNode;
     }
 }
 
 class ListNode {
-    long val;
+    int val;
     ListNode next;
 
-    ListNode(long x) {
+    ListNode(int x) {
         val = x;
     }
 }
