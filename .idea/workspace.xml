@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a359b3c3-a9a9-49a1-b1a5-8528c32c5e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interview/code/cracking/StringPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/interview/code/cracking/StringPermutationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interview/code/cracking/StringCompression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/interview/code/cracking/StringCompressionTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,23 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/code/cracking/StringPermutation.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/code/cracking/StringCompression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/interview/code/cracking/StringPermutationTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/interview/code/cracking/StringCompressionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="285">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,6 +77,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/interview/code/cracking/UniqueChars.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/interview/code/cracking/StringPermutationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/code/cracking/StringPermutation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interview/code/cracking/StringCompression.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/interview/code/cracking/StringCompressionTest.java" />
       </list>
     </option>
   </component>
@@ -222,14 +220,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringPermutationTest (2)">
+  <component name="RunManager" selected="JUnit.StringCompressionTest (3)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPermutationTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCompressionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetSamples" />
       <extension name="coverage">
         <pattern>
@@ -238,17 +236,17 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.interview.code.cracking" />
-      <option name="MAIN_CLASS_NAME" value="com.interview.code.cracking.StringPermutationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.interview.code.cracking.StringCompressionTest" />
       <option name="TEST_OBJECT" value="uniqueId" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:com.interview.code.cracking.StringPermutationTest]" />
+        <uniqueId value="[engine:junit-jupiter]/[class:com.interview.code.cracking.StringCompressionTest]" />
       </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPermutationTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCompressionTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetSamples" />
       <extension name="coverage">
         <pattern>
@@ -257,17 +255,17 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.interview.code.cracking" />
-      <option name="MAIN_CLASS_NAME" value="com.interview.code.cracking.StringPermutationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.interview.code.cracking.StringCompressionTest" />
       <option name="TEST_OBJECT" value="uniqueId" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:com.interview.code.cracking.StringPermutationTest]" />
+        <uniqueId value="[engine:junit-jupiter]/[class:com.interview.code.cracking.StringCompressionTest]" />
       </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPermutationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCompressionTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetSamples" />
       <extension name="coverage">
         <pattern>
@@ -276,44 +274,49 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.interview.code.cracking" />
-      <option name="MAIN_CLASS_NAME" value="com.interview.code.cracking.StringPermutationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringPermutationTest.shouldReturnTrueForAbcAndAcb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interview.code.cracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.interview.code.cracking" />
-      <option name="MAIN_CLASS_NAME" value="com.interview.code.cracking.StringPermutationTest" />
-      <option name="METHOD_NAME" value="shouldReturnTrueForAbcAndAcb" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniqueCharsTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interview.code.cracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.interview.code.cracking" />
-      <option name="MAIN_CLASS_NAME" value="com.interview.code.cracking.UniqueCharsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.interview.code.cracking.StringCompressionTest" />
       <option name="TEST_OBJECT" value="uniqueId" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:com.interview.code.cracking.UniqueCharsTest]" />
+        <uniqueId value="[engine:junit-jupiter]/[class:com.interview.code.cracking.StringCompressionTest]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCompressionTest (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interview.code.cracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.interview.code.cracking" />
+      <option name="MAIN_CLASS_NAME" value="com.interview.code.cracking.StringCompressionTest" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:com.interview.code.cracking.StringCompressionTest]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCompressionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interview.code.cracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.interview.code.cracking" />
+      <option name="MAIN_CLASS_NAME" value="com.interview.code.cracking.StringCompressionTest" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:com.interview.code.cracking.StringCompressionTest]" />
       </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -337,11 +340,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringPermutationTest (2)" />
-        <item itemvalue="JUnit.StringPermutationTest" />
-        <item itemvalue="JUnit.StringPermutationTest (1)" />
-        <item itemvalue="JUnit.StringPermutationTest.shouldReturnTrueForAbcAndAcb" />
-        <item itemvalue="JUnit.UniqueCharsTest (1)" />
+        <item itemvalue="JUnit.StringCompressionTest (3)" />
+        <item itemvalue="JUnit.StringCompressionTest (2)" />
+        <item itemvalue="JUnit.StringCompressionTest (1)" />
+        <item itemvalue="JUnit.StringCompressionTest" />
+        <item itemvalue="JUnit.StringCompressionTest (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -359,35 +362,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UniqueCharsTest_shouldReturnTrueForABC - 2019.10.14 at 22h 37m 13s.xml">
-      <configuration name="UniqueCharsTest.shouldReturnTrueForABC" configurationId="JUnit" />
+    <history-entry file="StringPermutationTest_(2) - 2019.10.14 at 23h 06m 35s.xml">
+      <configuration name="StringPermutationTest (2)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UniqueCharsTest - 2019.10.14 at 22h 37m 31s.xml">
-      <configuration name="UniqueCharsTest" configurationId="JUnit" />
+    <history-entry file="StringCompressionTest_shouldReturna2b2c2a3Foraabbccaaa - 2019.10.14 at 23h 21m 10s.xml">
+      <configuration name="StringCompressionTest.shouldReturna2b2c2a3Foraabbccaaa" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UniqueCharsTest - 2019.10.14 at 22h 37m 44s.xml">
-      <configuration name="UniqueCharsTest" configurationId="JUnit" />
+    <history-entry file="StringCompressionTest - 2019.10.14 at 23h 22m 29s.xml">
+      <configuration name="StringCompressionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UniqueCharsTest - 2019.10.14 at 22h 45m 30s.xml">
-      <configuration name="UniqueCharsTest" configurationId="JUnit" />
+    <history-entry file="StringCompressionTest_(1) - 2019.10.14 at 23h 23m 02s.xml">
+      <configuration name="StringCompressionTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UniqueCharsTest_(1) - 2019.10.14 at 22h 46m 05s.xml">
-      <configuration name="UniqueCharsTest (1)" configurationId="JUnit" />
+    <history-entry file="StringCompressionTest_(2) - 2019.10.14 at 23h 26m 38s.xml">
+      <configuration name="StringCompressionTest (2)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringPermutationTest_shouldReturnTrueForAbcAndAcb - 2019.10.14 at 22h 56m 14s.xml">
-      <configuration name="StringPermutationTest.shouldReturnTrueForAbcAndAcb" configurationId="JUnit" />
+    <history-entry file="StringCompressionTest_(3) - 2019.10.14 at 23h 27m 40s.xml">
+      <configuration name="StringCompressionTest (3)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringPermutationTest - 2019.10.14 at 22h 56m 36s.xml">
-      <configuration name="StringPermutationTest" configurationId="JUnit" />
+    <history-entry file="StringCompressionTest_(4) - 2019.10.14 at 23h 29m 16s.xml">
+      <configuration name="StringCompressionTest (4)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringPermutationTest - 2019.10.14 at 22h 57m 14s.xml">
-      <configuration name="StringPermutationTest" configurationId="JUnit" />
+    <history-entry file="StringCompressionTest_(5) - 2019.10.14 at 23h 30m 13s.xml">
+      <configuration name="StringCompressionTest (5)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringPermutationTest_(1) - 2019.10.14 at 22h 59m 14s.xml">
-      <configuration name="StringPermutationTest (1)" configurationId="JUnit" />
+    <history-entry file="StringCompressionTest - 2019.10.14 at 23h 30m 40s.xml">
+      <configuration name="StringCompressionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringPermutationTest - 2019.10.14 at 23h 01m 37s.xml">
-      <configuration name="StringPermutationTest" configurationId="JUnit" />
+    <history-entry file="StringCompressionTest_(1) - 2019.10.14 at 23h 33m 09s.xml">
+      <configuration name="StringCompressionTest (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -760,8 +763,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/code/cracking/StringPermutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/code/cracking/StringCompression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/interview/code/cracking/StringCompressionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
