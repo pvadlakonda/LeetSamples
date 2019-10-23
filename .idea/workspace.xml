@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a359b3c3-a9a9-49a1-b1a5-8528c32c5e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/samples/MajorityElementTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,20 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+            <state relative-caret-position="195">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#MajorityElement#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/samples/MajorityElementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="375">
+              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,8 +82,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/interview/code/cracking/StringPermutation.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/interview/code/cracking/StringCompressionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/code/cracking/StringCompression.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/leetcode/samples/MajorityElementTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java" />
       </list>
     </option>
   </component>
@@ -239,14 +242,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MajorityElementTest (4)">
+  <component name="RunManager" selected="JUnit.MajorityElementTest (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElementTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MajorityElementTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetSamples" />
       <extension name="coverage">
         <pattern>
@@ -256,7 +259,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.samples" />
       <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.MajorityElementTest" />
-      <option name="METHOD_NAME" value="shouldReturn2For232" />
       <option name="TEST_OBJECT" value="uniqueId" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <uniqueIds>
@@ -357,11 +359,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MajorityElementTest (1)" />
+        <item itemvalue="JUnit.MajorityElementTest (3)" />
         <item itemvalue="JUnit.MajorityElementTest (4)" />
         <item itemvalue="JUnit.MajorityElementTest" />
         <item itemvalue="JUnit.MajorityElementTest.shouldReturn1" />
-        <item itemvalue="JUnit.MajorityElementTest (3)" />
-        <item itemvalue="JUnit.MajorityElementTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -379,18 +381,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringCompressionTest - 2019.10.14 at 23h 30m 40s.xml">
-      <configuration name="StringCompressionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCompressionTest_(1) - 2019.10.14 at 23h 33m 09s.xml">
-      <configuration name="StringCompressionTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCompressionTest_(2) - 2019.10.14 at 23h 35m 49s.xml">
-      <configuration name="StringCompressionTest (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCompressionTest_(3) - 2019.10.14 at 23h 36m 19s.xml">
-      <configuration name="StringCompressionTest (3)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MajorityElementTest_shouldReturn2For232 - 2019.10.22 at 20h 48m 57s.xml">
       <configuration name="MajorityElementTest.shouldReturn2For232" configurationId="JUnit" />
     </history-entry>
@@ -409,6 +399,18 @@
     <history-entry file="MajorityElementTest_(2) - 2019.10.22 at 20h 52m 25s.xml">
       <configuration name="MajorityElementTest (2)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MajorityElementTest_(3) - 2019.10.22 at 20h 53m 19s.xml">
+      <configuration name="MajorityElementTest (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MajorityElementTest_shouldReturn1 - 2019.10.22 at 20h 54m 26s.xml">
+      <configuration name="MajorityElementTest.shouldReturn1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MajorityElementTest - 2019.10.22 at 20h 54m 56s.xml">
+      <configuration name="MajorityElementTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MajorityElementTest_(4) - 2019.10.22 at 20h 55m 11s.xml">
+      <configuration name="MajorityElementTest (4)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="23" width="1618" height="1027" extended-state="6" />
@@ -423,12 +425,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32894737" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32894737" />
@@ -569,7 +571,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java</url>
-          <line>15</line>
+          <line>14</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
@@ -814,19 +816,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/samples/MajorityElementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        <state relative-caret-position="375">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/samples/MajorityElementTest.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="60">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MajorityElement#0" />
           </folding>
         </state>
       </provider>

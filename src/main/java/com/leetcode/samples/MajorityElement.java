@@ -1,6 +1,6 @@
 package com.leetcode.samples;
 
-import java.util.HashMap;
+import java.util.Arrays;
 
 /**
  * Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
@@ -11,22 +11,10 @@ import java.util.HashMap;
 public class MajorityElement {
 
     public int majorityElement(int[] nums) {
-        if(nums.length == 1) {
-            return nums[0];
-        }
-        HashMap<Integer, Integer> mmajorityMap = new HashMap<>();
 
-        for (int num : nums) {
-            if (mmajorityMap.containsKey(num)) {
-                mmajorityMap.put(num, mmajorityMap.get(num) + 1);
-                if(mmajorityMap.get(num) > nums.length/2) {
-                    return num;
-                }
-            } else {
-                mmajorityMap.put(num, 1);
-            }
-        }
+        Arrays.sort(nums);
 
-        return 0;
+        int i = nums.length / 2;
+        return nums[i];
     }
 }
