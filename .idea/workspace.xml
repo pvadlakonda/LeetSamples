@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a359b3c3-a9a9-49a1-b1a5-8528c32c5e51" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/samples/GCDOfStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/samples/GCDOfStringsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,23 +19,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/GCDOfStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="210">
+              <caret line="18" column="66" lean-forward="true" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#MajorityElement#0" />
+                <element signature="docComment;class#GCDOfStrings#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/samples/MajorityElementTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/samples/GCDOfStringsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="435">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,6 +86,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/leetcode/samples/MajorityElementTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/leetcode/samples/GCDOfStringsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/samples/GCDOfStrings.java" />
       </list>
     </option>
   </component>
@@ -242,14 +245,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MajorityElementTest (1)">
+  <component name="RunManager" selected="JUnit.GCDOfStringsTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElementTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GCDOfStringsTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetSamples" />
       <extension name="coverage">
         <pattern>
@@ -258,17 +261,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.samples" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.MajorityElementTest" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.GCDOfStringsTest" />
+      <option name="METHOD_NAME" value="shouldReturnAB" />
       <option name="TEST_OBJECT" value="uniqueId" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:com.leetcode.samples.MajorityElementTest]" />
+        <uniqueId value="[engine:junit-jupiter]/[class:com.leetcode.samples.GCDOfStringsTest]" />
       </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElementTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GCDOfStringsTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetSamples" />
       <extension name="coverage">
         <pattern>
@@ -277,34 +281,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.samples" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.MajorityElementTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MajorityElementTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.samples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.samples" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.MajorityElementTest" />
-      <option name="METHOD_NAME" value="shouldReturn1" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.GCDOfStringsTest" />
+      <option name="METHOD_NAME" value="shouldReturnAB" />
       <option name="TEST_OBJECT" value="uniqueId" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:com.leetcode.samples.MajorityElementTest]" />
+        <uniqueId value="[engine:junit-jupiter]/[class:com.leetcode.samples.GCDOfStringsTest]" />
       </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GCDOfStringsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetSamples" />
       <extension name="coverage">
         <pattern>
@@ -313,18 +301,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.samples" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.MajorityElementTest" />
-      <option name="METHOD_NAME" value="shouldReturn1" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.GCDOfStringsTest" />
+      <option name="METHOD_NAME" value="shouldReturnTAUXX" />
       <option name="TEST_OBJECT" value="uniqueId" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:com.leetcode.samples.MajorityElementTest]" />
+        <uniqueId value="[engine:junit-jupiter]/[class:com.leetcode.samples.GCDOfStringsTest]" />
       </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElementTest.shouldReturn1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GCDOfStringsTest.shouldReturnAB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetSamples" />
       <extension name="coverage">
         <pattern>
@@ -333,8 +321,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.samples" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.MajorityElementTest" />
-      <option name="METHOD_NAME" value="shouldReturn1" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.GCDOfStringsTest" />
+      <option name="METHOD_NAME" value="shouldReturnAB" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GCDOfStringsTest.shouldReturnTAUXX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.samples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.samples" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.GCDOfStringsTest" />
+      <option name="METHOD_NAME" value="shouldReturnTAUXX" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -359,11 +364,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MajorityElementTest (1)" />
-        <item itemvalue="JUnit.MajorityElementTest (3)" />
-        <item itemvalue="JUnit.MajorityElementTest (4)" />
-        <item itemvalue="JUnit.MajorityElementTest" />
-        <item itemvalue="JUnit.MajorityElementTest.shouldReturn1" />
+        <item itemvalue="JUnit.GCDOfStringsTest" />
+        <item itemvalue="JUnit.GCDOfStringsTest.shouldReturnTAUXX" />
+        <item itemvalue="JUnit.GCDOfStringsTest (3)" />
+        <item itemvalue="JUnit.GCDOfStringsTest (2)" />
+        <item itemvalue="JUnit.GCDOfStringsTest.shouldReturnAB" />
       </list>
     </recent_temporary>
   </component>
@@ -381,40 +386,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MajorityElementTest_shouldReturn2For232 - 2019.10.22 at 20h 48m 57s.xml">
-      <configuration name="MajorityElementTest.shouldReturn2For232" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MajorityElementTest_shouldReturn2For232 - 2019.10.22 at 20h 50m 14s.xml">
-      <configuration name="MajorityElementTest.shouldReturn2For232" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MajorityElementTest - 2019.10.22 at 20h 50m 49s.xml">
-      <configuration name="MajorityElementTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MajorityElementTest_shouldReturn2For232 - 2019.10.22 at 20h 51m 32s.xml">
-      <configuration name="MajorityElementTest.shouldReturn2For232" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MajorityElementTest_(1) - 2019.10.22 at 20h 51m 49s.xml">
+    <history-entry file="MajorityElementTest_(1) - 2019.10.22 at 21h 07m 52s.xml">
       <configuration name="MajorityElementTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorityElementTest_(2) - 2019.10.22 at 20h 52m 25s.xml">
-      <configuration name="MajorityElementTest (2)" configurationId="JUnit" />
+    <history-entry file="GCDOfStringsTest_shouldReturnAB - 2019.10.22 at 21h 33m 23s.xml">
+      <configuration name="GCDOfStringsTest.shouldReturnAB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorityElementTest_(3) - 2019.10.22 at 20h 53m 19s.xml">
-      <configuration name="MajorityElementTest (3)" configurationId="JUnit" />
+    <history-entry file="GCDOfStringsTest_shouldReturnAB - 2019.10.22 at 21h 33m 44s.xml">
+      <configuration name="GCDOfStringsTest.shouldReturnAB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorityElementTest_shouldReturn1 - 2019.10.22 at 20h 54m 26s.xml">
-      <configuration name="MajorityElementTest.shouldReturn1" configurationId="JUnit" />
+    <history-entry file="GCDOfStringsTest - 2019.10.22 at 21h 35m 01s.xml">
+      <configuration name="GCDOfStringsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorityElementTest - 2019.10.22 at 20h 54m 56s.xml">
-      <configuration name="MajorityElementTest" configurationId="JUnit" />
+    <history-entry file="GCDOfStringsTest_(1) - 2019.10.22 at 21h 36m 10s.xml">
+      <configuration name="GCDOfStringsTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorityElementTest_(4) - 2019.10.22 at 20h 55m 11s.xml">
-      <configuration name="MajorityElementTest (4)" configurationId="JUnit" />
+    <history-entry file="GCDOfStringsTest_shouldReturnAB - 2019.10.22 at 21h 36m 36s.xml">
+      <configuration name="GCDOfStringsTest.shouldReturnAB" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GCDOfStringsTest_(2) - 2019.10.22 at 21h 36m 55s.xml">
+      <configuration name="GCDOfStringsTest (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GCDOfStringsTest_(3) - 2019.10.22 at 21h 37m 57s.xml">
+      <configuration name="GCDOfStringsTest (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GCDOfStringsTest_shouldReturnTAUXX - 2019.10.22 at 21h 40m 03s.xml">
+      <configuration name="GCDOfStringsTest.shouldReturnTAUXX" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GCDOfStringsTest_shouldReturnTAUXX - 2019.10.22 at 21h 41m 25s.xml">
+      <configuration name="GCDOfStringsTest.shouldReturnTAUXX" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="23" width="1618" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2779188" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -426,11 +430,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32894737" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32894737" />
@@ -571,9 +575,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java</url>
-          <line>14</line>
+          <line>13</line>
           <properties />
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/GCDOfStrings.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/GCDOfStrings.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -711,13 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/junit-platform-commons-1.5.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="356" selection-start-line="356" selection-end-line="356" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/LongestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -735,13 +744,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="113" column="23" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -816,16 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/samples/MajorityElementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -833,13 +825,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/samples/MajorityElementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="90">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
             <element signature="docComment;class#MajorityElement#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-platform-commons-1.5.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/samples/GCDOfStringsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/GCDOfStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="66" lean-forward="true" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+          <folding>
+            <element signature="docComment;class#GCDOfStrings#0" />
           </folding>
         </state>
       </provider>
