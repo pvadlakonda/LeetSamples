@@ -26,7 +26,7 @@ public class TwoSumSortedArray {
                 return new int[]{i + 1, tempIndex + 1};
             }
         }
-        return null;
+        return new int[0];
     }
 
     private int binarySearch(int[] numbers, int start, int end, int target) {

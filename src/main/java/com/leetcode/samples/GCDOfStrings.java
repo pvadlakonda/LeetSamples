@@ -12,7 +12,7 @@ public class GCDOfStrings {
 
         String result = str1.length() < str2.length() ? str1 : str2;
 
-        while (result.length() > 0) {
+        while (!result.isEmpty()) {
             if (isDivisible(str1, result) && isDivisible(str2, result)) {
                 return result;
             } else {
@@ -29,8 +29,8 @@ public class GCDOfStrings {
         }
 
         try {
-            while (str1.length() > 0) {
-                if (str1.substring(0, result.length()).equals(result)) {
+            while (!str1.isEmpty()) {
+                if (str1.startsWith(result)) {
                     str1 = str1.substring(result.length());
                 } else {
                     return false;

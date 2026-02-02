@@ -7,6 +7,7 @@ import java.util.Random;
 
 public class RandomizedSet {
     private HashMap<Integer, Integer> map = null;
+    private final Random random = new Random();
 
     /**
      * Initialize your data structure here.
@@ -45,7 +46,6 @@ public class RandomizedSet {
      */
     public int getRandom() {
         List<Integer> list = new ArrayList<>(map.keySet());
-        Random random = new Random();
 
         return list.get(random.nextInt(list.size()));
     }

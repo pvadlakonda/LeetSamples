@@ -11,24 +11,24 @@ class StringPermutationTest {
     @Test
     void shouldReturnTrueForAbcAndAcb() {
 
-        assertTrue(solution.containsPermutaion("abc", "acb"));
+        assertTrue(solution.containsPermutation("abc", "acb"));
     }
 
     @Test
     void shouldReturnFalseForAbcAndAcd() {
 
-        assertFalse(solution.containsPermutaion("abc", "acd"));
+        assertFalse(solution.containsPermutation("abc", "acd"));
     }
 
     @Test
     void shouldReturnFalseForAbcAndAcc() {
 
-        assertFalse(solution.containsPermutaion("abc", "acc"));
+        assertFalse(solution.containsPermutation("abc", "acc"));
     }
 
     @Test
     void shouldReturnFalseForAbcAndAbcWithSpace() {
 
-        assertFalse(solution.containsPermutaion("abc", "abc "));
+        assertFalse(solution.containsPermutation("abc", "abc "));
     }
 }

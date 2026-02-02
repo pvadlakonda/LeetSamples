@@ -20,16 +20,16 @@ import java.util.Map;
 
 public class LongestSubString {
     public int lengthOfLongestSubstring(String s) {
-        int result=0, start = 0;
+        int result=0;
+        int start = 0;
         Map<Character, Integer> charMap = new HashMap<>();
 
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
-            if (charMap.containsKey(c)) {
-                if (charMap.get(c) >= start) {
+            if (charMap.containsKey(c) && charMap.get(c) >= start) {
                     start = charMap.get(c) + 1;
                 }
-            }
+
             charMap.put(c, i);
             result = Math.max((i - start) + 1, result);
         }

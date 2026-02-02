@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class StringPermutation {
 
-    public boolean containsPermutaion(String str1, String str2) {
+    public boolean containsPermutation(String str1, String str2) {
         if (str1 == null || str2 == null || str1.length() != str2.length()) {
             return false;
         }

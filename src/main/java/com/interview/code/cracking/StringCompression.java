@@ -3,7 +3,7 @@ package com.interview.code.cracking;
 public class StringCompression {
 
     public String compressedString(String str) {
-        if (str == null || str.length() == 0) {
+        if (str == null || str.isEmpty()) {
             return "";
         }
 
