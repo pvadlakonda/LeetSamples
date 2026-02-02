@@ -3,7 +3,7 @@ package com.interview.code.cracking;
 import org.junit.jupiter.api.Test;
 
 class MergeTwoLinkedListsTest {
-    private MergeTwoLinkedLists solution = new MergeTwoLinkedLists();
+    private final MergeTwoLinkedLists solution = new MergeTwoLinkedLists();
 
     @Test
     void shouldMergeLinkedLists() {
@@ -12,11 +12,11 @@ class MergeTwoLinkedListsTest {
 
         Node a = null, b = null;
         for (int i = keys.length - 1; i >= 0; i = i - 2) {
-            a = a = new Node(keys[i], a);
+            a = new Node(keys[i], a);
         }
 
         for (int i = keys.length - 2; i >= 0; i = i - 2) {
-            b = b = new Node(keys[i], b);
+            b = new Node(keys[i], b);
         }
 
         // print both linked list
@@ -34,11 +34,11 @@ class MergeTwoLinkedListsTest {
 
         Node a = null, b = null;
         for (int i = keys.length - 1; i >= 0; i = i - 2) {
-            a = a = new Node(keys[i], a);
+            a = new Node(keys[i], a);
         }
 
         for (int i = keys.length - 2; i >= 0; i = i - 2) {
-            b = b = new Node(keys[i], b);
+            b = new Node(keys[i], b);
         }
 
         // print both linked list

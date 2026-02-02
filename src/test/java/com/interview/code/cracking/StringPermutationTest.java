@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 class StringPermutationTest {
 
-    private StringPermutation solution = new StringPermutation();
+    private final StringPermutation solution = new StringPermutation();
 
     @Test
     void shouldReturnTrueForAbcAndAcb() {

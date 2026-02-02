@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 class StringCompressionTest {
 
-    private StringCompression solution = new StringCompression();
+    private final StringCompression solution = new StringCompression();
 
     @Test
     void shouldReturna2b2c2a3Foraabbccaaa() {

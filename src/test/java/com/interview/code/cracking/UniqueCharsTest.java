@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class UniqueCharsTest {
-    private UniqueChars solution = new UniqueChars();
+    private final UniqueChars solution = new UniqueChars();
 
     @Test
     void shouldReturnTrueForABC() {

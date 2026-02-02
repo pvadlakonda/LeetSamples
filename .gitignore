@@ -1,8 +1,17 @@
 # Compiled class file
 *.class
 
+# Build directories
 out/
+build/
+.gradle/
+
+# IDE files
 .idea/
 *.iml
+.vscode/
+
+# Gradle wrapper (keep the jar)
+!gradle/wrapper/gradle-wrapper.jar
 
 settings.json

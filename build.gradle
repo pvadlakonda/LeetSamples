@@ -1,0 +1,84 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.leetcode'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+    }
+    test {
+        java {
+            srcDirs = ['src/test/java']
+        }
+    }
+}
+
+// Ensure proper compilation order
+compileTestJava.dependsOn compileJava
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+        exceptionFormat "full"
+        showStandardStreams = true
+    }
+}
+
+// Task to run specific test classes
+task runTwoSumTests(type: Test) {
+    useJUnitPlatform()
+    include '**/TwoSumTest.class'
+    testLogging {
+        events "passed", "skipped", "failed"
+        showStandardStreams = true
+    }
+}
+
+task runUniqueCharsTests(type: Test) {
+    useJUnitPlatform()
+    include '**/UniqueCharsTest.class'
+    testLogging {
+        events "passed", "skipped", "failed"
+        showStandardStreams = true
+    }
+}
+
+// Task to run all LeetCode tests
+task runLeetCodeTests(type: Test) {
+    useJUnitPlatform()
+    include '**/com/leetcode/**/*Test.class'
+    testLogging {
+        events "passed", "skipped", "failed"
+        showStandardStreams = true
+    }
+}
+
+// Task to run all Interview tests
+task runInterviewTests(type: Test) {
+    useJUnitPlatform()
+    include '**/com/interview/**/*Test.class'
+    testLogging {
+        events "passed", "skipped", "failed"
+        showStandardStreams = true
+    }
+}

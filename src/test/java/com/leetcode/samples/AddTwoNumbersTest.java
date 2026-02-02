@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class AddTwoNumbersTest {
-    private AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
+    private final AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
 
     @Test
     void shouldReturnListWithAddedNumbersInReverse() {
@@ -14,12 +14,12 @@ class AddTwoNumbersTest {
         ListNode input2 = convertToListNode(465);
 
         ListNode listNodeResult = addTwoNumbers.addTwoNumbers(input1, input2);
-        assertEquals(708, extractNumberFromList(listNodeResult));
+        assertEquals(807, extractNumberFromList(listNodeResult)); // 342 + 465 = 807
     }
 
     @Test
     void test2() {
-        //4003+4445 = 8448
+        // 3004 + 5444 = 8448
 
         ListNode input1 = convertToListNode(3004);
         ListNode input2 = convertToListNode(5444);
@@ -30,13 +30,13 @@ class AddTwoNumbersTest {
 
     @Test
     void test3() {
-        //8803+6623 = 15426
+        // 3088 + 3266 = 6354
 
         ListNode input1 = convertToListNode(3088);
         ListNode input2 = convertToListNode(3266);
 
         ListNode listNodeResult = addTwoNumbers.addTwoNumbers(input1, input2);
-        assertEquals(62451, extractNumberFromList(listNodeResult));
+        assertEquals(6354, extractNumberFromList(listNodeResult));
     }
 
     @Test
@@ -57,33 +57,29 @@ class AddTwoNumbersTest {
         ListNode input2 = convertToListNode(9999999991L);
 
         ListNode listNodeResult = addTwoNumbers.addTwoNumbers(input1, input2);
-        assertEquals(8000000002L, extractNumberFromList(listNodeResult));
+        assertEquals(10000000000L, extractNumberFromList(listNodeResult)); // 9 + 9999999991 = 10000000000
     }
 
     private ListNode convertToListNode(long input) {
-        StringBuilder numberString = new StringBuilder(String.valueOf(input));
-
-
-        String[] tokens = numberString.toString().split("");
-        int stringLength = tokens.length;
-        ListNode lastNode = new ListNode(Integer.valueOf(tokens[stringLength - 1]));
-        ListNode resultList = lastNode;
-        stringLength--;
-        while (stringLength > 0) {
-            ListNode tmpNode = new ListNode(Integer.valueOf(tokens[stringLength - 1]));
-            tmpNode.next = lastNode;
-            lastNode = tmpNode;
-            resultList = tmpNode;
-            stringLength--;
+        String numberString = String.valueOf(input);
+        
+        ListNode dummy = new ListNode(0);
+        ListNode current = dummy;
+        
+        // Process digits from right to left (reverse order)
+        for (int i = numberString.length() - 1; i >= 0; i--) {
+            int digit = Character.getNumericValue(numberString.charAt(i));
+            current.next = new ListNode(digit);
+            current = current.next;
         }
-        return resultList;
-
+        
+        return dummy.next;
     }
 
     private long extractNumberFromList(ListNode listNode) {
-        StringBuilder numberString = new StringBuilder("" + listNode.val);
-        while (listNode.next != null) {
-            numberString.append(listNode.next.val);
+        StringBuilder numberString = new StringBuilder();
+        while (listNode != null) {
+            numberString.insert(0, listNode.val); // Insert at beginning to reverse
             listNode = listNode.next;
         }
         return Long.parseLong(numberString.toString());

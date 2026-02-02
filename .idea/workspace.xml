@@ -1,20 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a359b3c3-a9a9-49a1-b1a5-8528c32c5e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/samples/TwoSumSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/samples/TwoSumSortedArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetSamples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/apiguardian-api-1.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-api-5.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-platform-commons-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/samples/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/samples/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/interview/code/cracking/MergeTwoLinkedListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/interview/code/cracking/MergeTwoLinkedListsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/interview/code/cracking/StringCompressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/interview/code/cracking/StringCompressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/interview/code/cracking/StringPermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/interview/code/cracking/StringPermutationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/interview/code/cracking/UniqueCharsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/interview/code/cracking/UniqueCharsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/samples/AddTwoNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/samples/AddTwoNumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leetcode/samples/DecodeStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/samples/DecodeStringTest.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="LeetSamples" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="LeetSamples" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="LeetSamples" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="LeetSamples" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -63,6 +116,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;praveen-softkii&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:pvadlakonda/LeetSamples.git&quot;,
+    &quot;accountId&quot;: &quot;db080bea-b9dc-45f6-aa20-d854848476dc&quot;
+  }
+}</component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -111,12 +176,16 @@
       </list>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectFrameBounds">
     <option name="x" value="62" />
     <option name="y" value="23" />
     <option name="width" value="1618" />
     <option name="height" value="1027" />
   </component>
+  <component name="ProjectId" id="395Yqw6VTNgn5PTUsVeO2TWFoKz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
@@ -189,21 +258,26 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/leetcode/samples" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build LeetSamples.executor": "Run",
+    "JUnit.JUnit.executor": "Run",
+    "JUnit.Unnamed.executor": "Run",
+    "JUnit.Whole project.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/praveen/Documents/Personal/workspace/LeetSamples",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.40574712",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.leetcode.samples" />
@@ -217,105 +291,24 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.TwoSumSortedArrayTest (1)">
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinCostConnectRopesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JUnit" type="JUnit" factoryName="JUnit">
       <module name="LeetSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.samples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
       </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.samples" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.MinCostConnectRopesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinCostConnectRopesTest.shouldReturn58" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.samples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.samples" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.MinCostConnectRopesTest" />
-      <option name="METHOD_NAME" value="shouldReturn58" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSumSortedArrayTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.samples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.samples" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.TwoSumSortedArrayTest" />
-      <option name="TEST_OBJECT" value="uniqueId" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:com.leetcode.samples.TwoSumSortedArrayTest]" />
-      </uniqueIds>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSumSortedArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.samples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.samples" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.TwoSumSortedArrayTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSumSortedArrayTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.samples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.samples" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.samples.TwoSumSortedArrayTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -337,16 +330,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.TwoSumSortedArrayTest (1)" />
-        <item itemvalue="JUnit.TwoSumSortedArrayTest" />
-        <item itemvalue="JUnit.TwoSumSortedArrayTest.test1" />
-        <item itemvalue="JUnit.MinCostConnectRopesTest" />
-        <item itemvalue="JUnit.MinCostConnectRopesTest.shouldReturn58" />
-      </list>
-    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -452,30 +437,6 @@
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -490,6 +451,15 @@
         </entry>
       </map>
     </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -497,103 +467,86 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/leetcode/samples/AddTwoNumbersTest.java</url>
           <line>29</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/AddTwoNumbers.java</url>
-          <line>38</line>
-          <properties />
+          <line>39</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/PalindromeNumber.java</url>
           <line>21</line>
-          <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/LongestSubString.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/LinkedListCycle.java</url>
           <line>11</line>
-          <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/leetcode/samples/AddTwoNumbersTest.java</url>
           <line>66</line>
-          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/TwoSum.java</url>
           <line>43</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/LongestPalindrome.java</url>
           <line>14</line>
-          <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/LongestPalindrome.java</url>
           <line>32</line>
-          <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/MajorityElement.java</url>
           <line>13</line>
-          <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/GCDOfStrings.java</url>
           <line>14</line>
-          <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/GCDOfStrings.java</url>
           <line>26</line>
-          <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/RandomizedSet.java</url>
           <line>34</line>
-          <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/RandomizedSet.java</url>
           <line>21</line>
-          <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/interview/code/cracking/MergeTwoLinkedLists.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/MinCostConnectRopes.java</url>
           <line>15</line>
-          <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/samples/TwoSumSortedArray.java</url>
           <line>32</line>
-          <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>

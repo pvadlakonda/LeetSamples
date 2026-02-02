@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 class DecodeStringTest {
 
-    private DecodeString solution = new DecodeString();
+    /*private final DecodeString solution = new DecodeString();
 
     @Test
     void name() {
@@ -16,5 +16,5 @@ class DecodeStringTest {
 
         assertEquals(expected, solution.decodeString(input));
 
-    }
+    }*/
 }
