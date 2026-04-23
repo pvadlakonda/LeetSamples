@@ -36,6 +36,10 @@ import java.util.Stack;
     s consists of parentheses only '()[]{}'.
  */
 public class ValidParentheses {
+    /*
+        Time Complexity: O(n) - We iterate through the string once
+        Space Complexity: O(n) - In the worst case, we push all characters to the stack
+     */
     public boolean isValid(String input) {
         Map<Character, Character> matchingParentheses = new HashMap<>();
         matchingParentheses.put(')', '(');

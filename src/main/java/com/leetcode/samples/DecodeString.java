@@ -19,6 +19,10 @@ import java.util.Stack;
  */
 public class DecodeString {
 
+    /*
+    Time Complexity: O(n)
+    Space Complexity: O(n)
+     */
     public String decodeString(String s) {
         Stack<Integer> countStack = new Stack<>();
         Stack<StringBuilder> stringStack = new Stack<>();

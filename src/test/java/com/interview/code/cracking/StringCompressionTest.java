@@ -1,22 +1,51 @@
 package com.interview.code.cracking;
 
-import static org.junit.jupiter.api.Assertions.*;
-
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class StringCompressionTest {
+import static org.junit.jupiter.api.Assertions.*;
 
-    private final StringCompression solution = new StringCompression();
+public class StringCompressionTest {
 
-    @Test
-    void shouldReturna2b2c2a3Foraabbccaaa() {
+    private StringCompression stringCompression;
 
-        assertEquals("a2b2c2a3", solution.compressedString("aabbccaaa"));
+    @BeforeEach
+    void setUp() {
+        stringCompression = new StringCompression();
     }
 
     @Test
-    void shouldReturnabcForabc() {
+    void testBasicCompression() {
+        assertEquals("a2b1c5a3", stringCompression.compressedString("aabcccccaaa"));
+    }
 
-        assertEquals("abc", solution.compressedString("abc"));
+    @Test
+    void testAllUniqueChars() {
+        assertEquals("abcdef", stringCompression.compressedString("abcdef"));
+    }
+
+    @Test
+    void testAllSameChars() {
+        assertEquals("a5", stringCompression.compressedString("aaaaa"));
+    }
+
+    @Test
+    void testSingleChar() {
+        assertEquals("a", stringCompression.compressedString("a"));
+    }
+
+    @Test
+    void testTwoSameChars() {
+        assertEquals("a2", stringCompression.compressedString("aa"));
+    }
+
+    @Test
+    void testEmptyString() {
+        assertEquals("", stringCompression.compressedString(""));
+    }
+
+    @Test
+    void testNullString() {
+        assertEquals("", stringCompression.compressedString(null));
     }
 }
